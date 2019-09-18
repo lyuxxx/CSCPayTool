@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CSCPayTool_Example' do
+  pod 'CSCPayTool', :path => '../'
+
+  target 'CSCPayTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
