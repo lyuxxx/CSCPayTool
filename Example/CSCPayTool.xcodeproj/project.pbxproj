@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2ED19AAE8540FFFA42A0A912 /* Pods_CSCPayTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB54C1B252CAFC708A96CA8 /* Pods_CSCPayTool_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		750EAACE17706339C49909F0 /* libPods-CSCPayTool_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 430098447A97A3112455740D /* libPods-CSCPayTool_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D9BABB37FF54E2C5FD79C8F3 /* Pods_CSCPayTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D69D99F3AD871E8D47AFF39 /* Pods_CSCPayTool_Tests.framework */; };
+		996720DD5630E43FA1AFA25E /* libPods-CSCPayTool_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3742A487E6A98FBD465E170 /* libPods-CSCPayTool_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D69D99F3AD871E8D47AFF39 /* Pods_CSCPayTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSCPayTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		375F9A88E46F64297D52C115 /* Pods-CSCPayTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPayTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CSCPayTool_Tests/Pods-CSCPayTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		430098447A97A3112455740D /* libPods-CSCPayTool_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSCPayTool_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43EF3DAB1A3DDE4414CB5C80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CSCPayTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSCPayTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		86E9478F39202CE3919C59F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		874D5A39AD020719F11EDD2D /* Pods-CSCPayTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPayTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-CSCPayTool_Example/Pods-CSCPayTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A3742A487E6A98FBD465E170 /* libPods-CSCPayTool_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSCPayTool_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5698E63C24FB56C89040CB9 /* Pods-CSCPayTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPayTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-CSCPayTool_Tests/Pods-CSCPayTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C43C7699934EFDB72136418A /* CSCPayTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CSCPayTool.podspec; path = ../CSCPayTool.podspec; sourceTree = "<group>"; };
-		EBB54C1B252CAFC708A96CA8 /* Pods_CSCPayTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSCPayTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9409BD16B7ADEB3CF9559E0 /* Pods-CSCPayTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPayTool_Example.release.xcconfig"; path = "Target Support Files/Pods-CSCPayTool_Example/Pods-CSCPayTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2ED19AAE8540FFFA42A0A912 /* Pods_CSCPayTool_Example.framework in Frameworks */,
+				750EAACE17706339C49909F0 /* libPods-CSCPayTool_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D9BABB37FF54E2C5FD79C8F3 /* Pods_CSCPayTool_Tests.framework in Frameworks */,
+				996720DD5630E43FA1AFA25E /* libPods-CSCPayTool_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +135,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				EBB54C1B252CAFC708A96CA8 /* Pods_CSCPayTool_Example.framework */,
-				2D69D99F3AD871E8D47AFF39 /* Pods_CSCPayTool_Tests.framework */,
+				430098447A97A3112455740D /* libPods-CSCPayTool_Example.a */,
+				A3742A487E6A98FBD465E170 /* libPods-CSCPayTool_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E4F93226FA5F841453722150 /* [CP] Embed Pods Frameworks */,
+				5EE223F17AD2CFC9CE35DB08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,22 +339,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E4F93226FA5F841453722150 /* [CP] Embed Pods Frameworks */ = {
+		5EE223F17AD2CFC9CE35DB08 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CSCPayTool_Example/Pods-CSCPayTool_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CSCPayTool/CSCPayTool.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CSCPayTool_Example/Pods-CSCPayTool_Example-resources.sh",
+				"${PODS_ROOT}/XXAlipaySDK/AlipaySDK/AlipaySDK.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSCPayTool.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSCPayTool_Example/Pods-CSCPayTool_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSCPayTool_Example/Pods-CSCPayTool_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

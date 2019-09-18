@@ -1,0 +1,27 @@
+PODS:
+  - CSCPayTool (0.1.0):
+    - XXAlipaySDK
+    - XXWeChatSDK
+  - XXAlipaySDK (15.6.5)
+  - XXWeChatSDK (1.8.5)
+
+DEPENDENCIES:
+  - CSCPayTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - XXAlipaySDK
+    - XXWeChatSDK
+
+EXTERNAL SOURCES:
+  CSCPayTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSCPayTool: c527d028d96d5043e91555771706b923a7adffd3
+  XXAlipaySDK: bc237d196bd2224e97bda99f2e0493538f732fdc
+  XXWeChatSDK: f1bd60500664f03f3631ecb1947e9f6508e25f19
+
+PODFILE CHECKSUM: 4b554afd1edab167f0fb132964aa642d705a08cc
+
+COCOAPODS: 1.8.0.beta.2
