@@ -27,7 +27,7 @@
         } else {
             //WeChat Share
         }
-    } else if ([url.scheme hasPrefix:@"safepay"]) {
+    } else if ([url.host hasPrefix:@"safepay"]) {
         return [CSCPayTool alipayHandleOpenURL:url];
     }
     return YES;
