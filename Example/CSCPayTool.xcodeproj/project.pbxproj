@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		375F9A88E46F64297D52C115 /* Pods-CSCPayTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPayTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CSCPayTool_Tests/Pods-CSCPayTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		430098447A97A3112455740D /* libPods-CSCPayTool_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSCPayTool_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43EF3DAB1A3DDE4414CB5C80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43EF3DAB1A3DDE4414CB5C80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CSCPayTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSCPayTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +60,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86E9478F39202CE3919C59F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		86E9478F39202CE3919C59F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		874D5A39AD020719F11EDD2D /* Pods-CSCPayTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPayTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-CSCPayTool_Example/Pods-CSCPayTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A3742A487E6A98FBD465E170 /* libPods-CSCPayTool_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSCPayTool_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5698E63C24FB56C89040CB9 /* Pods-CSCPayTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPayTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-CSCPayTool_Tests/Pods-CSCPayTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C43C7699934EFDB72136418A /* CSCPayTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CSCPayTool.podspec; path = ../CSCPayTool.podspec; sourceTree = "<group>"; };
+		C43C7699934EFDB72136418A /* CSCPayTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSCPayTool.podspec; path = ../CSCPayTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F9409BD16B7ADEB3CF9559E0 /* Pods-CSCPayTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPayTool_Example.release.xcconfig"; path = "Target Support Files/Pods-CSCPayTool_Example/Pods-CSCPayTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				375F9A88E46F64297D52C115 /* Pods-CSCPayTool_Tests.debug.xcconfig */,
 				A5698E63C24FB56C89040CB9 /* Pods-CSCPayTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

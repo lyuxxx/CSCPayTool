@@ -1,9 +1,9 @@
 PODS:
-  - CSCPayTool (0.1.0):
+  - CSCPayTool (0.2.0):
     - XXAlipaySDK
     - XXWeChatSDK
   - XXAlipaySDK (15.6.5)
-  - XXWeChatSDK (1.8.5)
+  - XXWeChatSDK (1.8.6.1)
 
 DEPENDENCIES:
   - CSCPayTool (from `../`)
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSCPayTool: c527d028d96d5043e91555771706b923a7adffd3
+  CSCPayTool: 5f4e0648094a4ce990f925b951d30984c837548a
   XXAlipaySDK: bc237d196bd2224e97bda99f2e0493538f732fdc
-  XXWeChatSDK: f1bd60500664f03f3631ecb1947e9f6508e25f19
+  XXWeChatSDK: b245e9da83db8e277004b71546eddfdb782aed3e
 
 PODFILE CHECKSUM: 4b554afd1edab167f0fb132964aa642d705a08cc
 
-COCOAPODS: 1.8.0.beta.2
+COCOAPODS: 1.8.0

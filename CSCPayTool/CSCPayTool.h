@@ -49,9 +49,10 @@ typedef void(^CSCPayToolRespBlock)(NSInteger respCode, NSString *respMsg);
  注册微信appId
 
  @param appId appId
- @return 返回值
+ @param universalLink universalLink
+ @return return value
  */
-+ (BOOL)wechatRegisterAppWithAppId:(NSString *)appId;
++ (BOOL)wechatRegisterAppWithAppId:(NSString *)appId universalLink:(NSString *)universalLink;
 
 /**
  处理微信通过URL启动App时传递回来的数据
